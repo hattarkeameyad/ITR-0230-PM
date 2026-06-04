@@ -1,0 +1,26 @@
+.box{
+
+    height: 200px;
+    width: 200px;
+    background-color: rgb(248, 207, 46);
+}
+#b1{
+    background-color: purple;
+}
+#b2
+{
+    background-color: #2b9f18;
+}
+#b3{
+    background-color: rgb(255, 110, 50);
+}
+#b4{
+    background-color: rgba(26, 51, 179, 0.61);
+}
+
+#b5{
+    background-color: hsl(341, 90%, 88%);
+}
+#b6{
+    background-color: hsla(15, 70%, 50%, 0.6);
+}

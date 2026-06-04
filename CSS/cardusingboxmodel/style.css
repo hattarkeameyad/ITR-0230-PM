@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.container {
+    display:flex;
+    justify-content:center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(110deg, rgba(179, 9, 23, 1) 11.2%, rgba(226, 181, 49, 1) 31.1%,green);
+}
+
+.card
+{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    
+    width:20%;
+    height:80%;
+    border-radius: 20px;
+    padding:20px;
+    box-sizing: border-box;
+    box-shadow: inset 10px 5px 50px 15px rgb(19, 19, 2);
+    background-image: radial-gradient(circle,rgb(150, 211, 150),rgb(244, 244, 193));
+}
+
+.propic{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: inset 5px 5px 40px 5px rgb(255, 68, 68);
+}
+
+.propic>img{
+    object-fit: cover;
+    object-position: bottom;
+    width:100%;
+    height:100%;
+}

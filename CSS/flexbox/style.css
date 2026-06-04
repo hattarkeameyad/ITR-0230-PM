@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    background-color: cadetblue;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.child{
+    height:150px;
+    width:150px;
+    margin:5px;
+    background-color: white;
+    outline: 1px black dashed;
+}
+#c6{
+    align-self:flex-end;
+}
