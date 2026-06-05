@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-flow:column wrap;
+    gap:10px;
+    box-sizing: border-box;
+}
+.box{
+    background-color: darkcyan;
+    height:40vh;
+    width:50vw;
+    box-sizing: border-box;
+}
+.inbox{
+    height:40%;
+    width:20%;
+    background-color: white;
+    box-sizing: border-box;
+}
+#inbox1{
+        position: static;
+}
+#inbox2{
+    position:relative;
+    top:30px;
+    right:20px;
+    bottom:;
+    left:30px;
+
+}
+
+#inbox3{
+    position: absolute;
+    top:10px;
+    background-color: magenta;
+}
+#inbox4{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:12%;
+    background-color: orange;
+}
+#b5{
+    height:70vh;
+}
+#inbox5{
+    position: sticky;
+    top:10px;
+    background-color: red;
+}
