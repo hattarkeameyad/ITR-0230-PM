@@ -40,23 +40,46 @@
 }
 
 .txtgrp{
-    width:70%;
-    height:20%;
+    width:80%;
+    height:24%;
     display:flex;
     flex-flow:column wrap;
     gap:20px;
     align-items: center;
     justify-content:center;
+    
 }
 .textbox{
     height:25%;
     width:70%;
+    outline:none;
+    border:0px;
+    border-bottom: 2px solid black;
+    background-color: #a1011c00;
+    color: black;
+    font-weight: 600;
+    font-size:large;
+}
+.textbox:hover{
+    border-bottom: 4px solid #a1011b;
 }
 #btn_login{
     height: 8%;
     width:30%;
     text-transform: uppercase;
     border-radius:20px;
+}
+#btn_login:hover{
+
+    transition: ease-in 0.5ms;
+    transform:scale(1.1);
+    box-shadow: 2px 2px 20px 3px #a1011b;
+
+}
+#btn_login:active{
+    transform:scale(0.98);
+    box-shadow:inset 1px 1px 10px 1px #a1011b;
+    transition: ease-in-out 0.5ms;
 }
 #login{
    
