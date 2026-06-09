@@ -10,7 +10,6 @@
     display:flex;
     justify-content: center;
 }
-
 ul{
     display:flex;
     flex-flow:wrap row;
