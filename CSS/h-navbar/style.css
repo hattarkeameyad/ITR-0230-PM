@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+    border:0px;
+}
+.navbar{
+    width:100vw;
+    height:auto;
+    background-color: rgb(89, 78, 78);
+    display:flex;
+    justify-content: center;
+}
+
+ul{
+    display:flex;
+    flex-flow:wrap row;
+    list-style: none;
+}
+ul>li>a{
+    display: inline-block;
+    padding:10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+ul>li>a:hover{
+    background-color: white;
+    color: rgb(89, 78, 78);
+}
