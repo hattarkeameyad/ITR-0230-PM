@@ -1,0 +1,35 @@
+span{
+    
+    font-weight: 800;
+}
+
+@media (min-width:300px) {
+
+    body {
+        background-color: black;
+    }
+    span{
+        font-size: 16px;
+        color: white;
+    }
+}
+
+@media (min-width:490px) {
+
+    body {
+        background-color: rgb(255, 29, 29);
+    }
+    span{
+        font-size: 32px;
+    }
+}
+
+@media (min-width:780px) {
+
+    body {
+        background-color: rgb(47, 236, 29);
+    }
+    span{
+        font-size: 128px;
+    }
+}
